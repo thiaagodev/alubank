@@ -6,6 +6,18 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: <Color>[
+            Color.fromRGBO(103, 99, 234, 1.0),
+            Color.fromRGBO(155, 105, 254, 1.0),
+            Color.fromRGBO(195, 107, 255, 1.0)
+          ],
+        ),
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
+      ),
       child: Padding(
         padding: const EdgeInsets.only(
             top: 80.0, left: 16.0, right: 16.0, bottom: 16.0),
@@ -15,13 +27,6 @@ class Header extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
-                // Text(
-                //   '\$1000.00',
-                //   style: TextStyle(
-                //     fontSize: 28,
-                //     fontWeight: FontWeight.bold,
-                //   ),
-                // ),
                 Text.rich(
                   TextSpan(
                     text: '\$',
