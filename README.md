@@ -6,4 +6,4 @@ Projeto desenvolvido no curso:
 
 Neste curso da Alura aprendi a desenvolver layouts modernos no Flutter, com estilização de tema e widgets personalizados.
 
-![foto](./.github/finn.jpg)
+![foto](./.github/app.jpg)
