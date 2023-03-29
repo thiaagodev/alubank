@@ -1,16 +1,9 @@
-# alubank
+# Alubank
 
-A new Flutter project.
+Projeto desenvolvido no curso:
 
-## Getting Started
+<a href="https://cursos.alura.com.br/course/flutter-estilizando-reproduzindo-layouts">Flutter: estilizando e reproduzindo layouts</a>
 
-This project is a starting point for a Flutter application.
+Neste curso da Alura aprendi a desenvolver layouts modernos no Flutter, com estilização de tema e widgets personalizados.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![foto](./.github/finn.jpg)
