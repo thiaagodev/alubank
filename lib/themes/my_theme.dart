@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 ThemeData myTheme = ThemeData(
   brightness: Brightness.dark,
+  fontFamily: 'Raleway',
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,
   textTheme: const TextTheme(
